@@ -40,6 +40,26 @@ nav ul li a{
     color: white;
     text-decoration: none;
 }
+nav ul li a:hover {
+    color: rgb(222, 233, 231);
+    font-weight: bold;
+
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 393px;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 12px;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
 footer{
     height: 12vh;
     background-color: black;
