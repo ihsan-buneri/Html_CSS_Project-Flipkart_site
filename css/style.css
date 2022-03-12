@@ -60,6 +60,26 @@ nav ul li a:hover {
 .container{
     min-height: calc(100vh - 58px - 12vh);
 }
+.slider{
+    width: 80vw;
+    margin: 12px auto;
+}
+.slider img{
+    width: 100%;
+}
+
+.card{
+    max-width: 91vw;
+    margin: auto;
+}
+
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
 footer{
     height: 12vh;
     background-color: black;
